@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Desktop/New Project/E-commerce"
+		},
+		{
+			"path": "../../../../Desktop/teaching/hover/fontawesome-free-6.2.0-web"
+		},
+		{
+			"path": "../../../bootstrap-5.0.2-dist"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "E-commerce",
+		"liveServer.settings.port": 5501
+	}
+}
