@@ -31,7 +31,7 @@
   }
   .product-prev .preview .img-card {
     height: 250px;
-    width: 400px;
+    width: 100%;
   }
   .product-prev .preview .bursh_text {
     font-size: 15px;
