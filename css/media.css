@@ -2,7 +2,7 @@
   html{
     overflow-x: hidden;
   }
-  .product-container .card-container{
+  .product-container {
     flex-direction: column;
   }
   .slide-img {
@@ -19,6 +19,9 @@
   .product-prev .preview {
     height: 550px;
     width: 80%;
+  }
+  .preview .card-container{
+    flex-direction: column;
   }
   .preview .line-cont {
     display: none;
