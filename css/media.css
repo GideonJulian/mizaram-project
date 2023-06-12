@@ -20,6 +20,9 @@
     height: 550px;
     width: 80%;
   }
+  .product-prev .preview.active{
+    flex-direction: column;
+  }
   .preview .card-container{
     flex-direction: column;
   }
