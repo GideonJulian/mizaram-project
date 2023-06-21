@@ -37,6 +37,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
   user-select: none;
 }
 
@@ -315,7 +316,7 @@ button {
   color: #fc967e;
 }
 
-.sidenav .closebtn {
+.sidenav .closeread_bt a {
   position: absolute;
   top: 0;
   right: 25px;
@@ -370,7 +371,7 @@ button {
   float: left;
   padding-top: 30px;
 }
-
+/* 
 .read_bt a {
   width: 100%;
   background: linear-gradient(
@@ -385,11 +386,57 @@ button {
   float: left;
   font-size: 16px;
   color: #ffffff;
-  /* background-color: #252525; */
+
   text-align: center;
   padding: 10px 0px;
   border-radius: 5px;
   text-transform: uppercase;
+} */
+.read_bt a {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.read_bt a::before {
+  position: absolute;
+  content: "Start shopping";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.read_bt a:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.read_bt a:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.read_bt a:active {
+  transform: scale(0.95);
 }
 .read_bt a:hover {
   animation: read 2s ease-in-out infinite;
@@ -416,16 +463,16 @@ button {
 #button {
   padding: 15px;
 }
-.btn {
+.read_bt a {
   background-color: #fff;
   border-bottom: 1px solid;
   margin-left: 7px;
   transition: all 0.3s;
 }
-.btn:hover {
+.read_bt a:hover {
   transform: scale(1.1);
 }
-.btn.active {
+.read_bt a.active {
   background-color: #00204a;
   color: white;
   outline-style: none;
@@ -573,7 +620,7 @@ button {
   width: 100%;
   height: 100%;
 }
-.buybtn {
+.buyread_bt a {
   display: inline-block;
   border: 1px solid;
   height: 40px;
@@ -586,7 +633,7 @@ button {
   background-color: #00204a;
 }
 
-.aboutBtn {
+.aboutread_bt a {
   display: inline-block;
   border: 1px solid;
   height: 40px;
@@ -599,7 +646,7 @@ button {
   background-color: #ff8a58;
   color: white;
 }
-.Btns {
+.read_bt as {
   display: flex;
   justify-content: space-between;
 }
@@ -747,7 +794,7 @@ button {
   padding-top: 0;
   margin-bottom: 10px;
 }
-.buyBtn span {
+.buyread_bt a span {
   display: none;
 }
 /* about section start */
