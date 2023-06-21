@@ -42,13 +42,6 @@ var filterFunction = (e) => {
     ) {
       card.classList.remove("hide");
     }
-    // var NotFound = document.querySelector('.no-found')
-    // if(card.dataset.name != e.target.dataset.name){
-    //     NotFound.style.display = 'block'
-    // }else{
-    //     NotFound.style.display = 'none'
-
-    // }
   });
 };
 
