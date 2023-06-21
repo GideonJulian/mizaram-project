@@ -25,7 +25,7 @@ previewBox.forEach((close) => {
 });
 
 // FLITERING PRODUCTS
-var filteringBtn = document.querySelectorAll("#buttons .btn");
+var filteringBtn = document.querySelectorAll("#buttons .btns");
 
 var items = document.querySelectorAll(".product-container .card");
 window.addEventListener("DOMContentLoaded", () => {});
