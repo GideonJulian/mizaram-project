@@ -712,7 +712,7 @@ input:focus ~ .input-border {
   text-decoration: none;
   color: black;
 }
-.nav ul .logo {
+.nav ul .Logo {
   line-height: 10px;
   font-family: "Berlin Sans FB " !important;
   font-size: 26px;
