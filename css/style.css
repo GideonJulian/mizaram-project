@@ -714,7 +714,7 @@ input:focus ~ .input-border {
 }
 .nav ul .logo {
   line-height: 10px;
-  font-family: "Berlin Sans FB";
+  font-family: "Berlin Sans FB " !important;
   font-size: 26px;
   color: #175b17;
 }
