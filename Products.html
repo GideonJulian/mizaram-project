@@ -65,25 +65,49 @@
           </div>
           <button class="btn" onclick="openNav()">
             <span class="icon">
-                <svg viewBox="0 0 175 80" width="40" height="40">
-                    <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
-                    <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
-                    <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
-                </svg>
+              <svg viewBox="0 0 175 80" width="40" height="40">
+                <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+                <rect
+                  y="30"
+                  width="80"
+                  height="15"
+                  fill="#f0f0f0"
+                  rx="10"
+                ></rect>
+                <rect
+                  y="60"
+                  width="80"
+                  height="15"
+                  fill="#f0f0f0"
+                  rx="10"
+                ></rect>
+              </svg>
             </span>
             <span class="text">MENU</span>
-        </button>
-          <a class="logo" href="index.html">MIZARAM</a><br />
+          </button>
+          <a class="logo" href="index.html">MIZARAM <span class="fa fa-bag-shopping"></span></a><br />
           <div class="form">
-            <input class="input" placeholder="Type your text" required="" type="text">
+            <input
+              class="input"
+              placeholder="Type your text"
+              required=""
+              type="text"
+            />
             <span class="input-border"></span>
           </div>
         </nav>
       </div>
       <nav class="navBar">
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="product">Products</a></li>
+          <li>
+            <a href="/index.html">Home</a>
+            <div class="border"></div>
+          </li>
+          <li>
+            <a href="product">Products</a>
+            <div class="border"></div>
+          </li>
+         
           <!-- <li><a href="About.html">About</a></li>
           <li><a href="Client.html">Client</a></li>
           <li><a href="Contact.html">Contact</a></li> -->
@@ -94,6 +118,38 @@
     <!-- product section start -->
     <div class="product_section layout_padding">
       <div class="container">
+        <div class="BrownBox">
+          <div class="textBox">
+            <div class="text">
+              <h2>GRAB UPON 50% OFF ON SELECTED Products</h2>
+              <a href="#">Buy Now </a>
+            </div>
+          </div>
+          <div class="carousel slide" id="carousel" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <img src="images/dress-shirt-img - Copy.png" alt="" />
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img src="images/blue-bag.png" alt="" />
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img src="images/bag 5 - Copy - Copy.jpg" alt="" />
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img src="images/double-2 - Copy (2).jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="cartegories">
           <h1 class="category-text">categories</h1>
           <br />
@@ -124,11 +180,11 @@
 
                 <img src="images/img-1.png" class="image_1" />
                 <div class="btn_main">
+                  <h3 class="price_text">Price N30</h3>
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-1">Review</a>
                   </div>
-                  <h3 class="price_text">Price N30</h3>
                 </div>
               </div>
             </div>
@@ -138,11 +194,13 @@
 
                 <img src="images/shoe 3 - Copy.jpg" class="image_1" />
                 <div class="btn_main">
+                  <h3 class="price_text">Price N30</h3>
+
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
+
                     <a href="#" class="aboutBtn" data-name="p-2">Review</a>
                   </div>
-                  <h3 class="price_text">Price N30</h3>
                 </div>
               </div>
             </div>
@@ -154,7 +212,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-3">Review</a>
                   </div>
                 </div>
@@ -168,7 +226,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-4">Review</a>
                   </div>
                 </div>
@@ -185,7 +243,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-5">Review</a>
                   </div>
                 </div>
@@ -199,7 +257,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-5">Review</a>
                   </div>
                 </div>
@@ -213,7 +271,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-6">Review</a>
                   </div>
                 </div>
@@ -227,7 +285,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-7">Review</a>
                   </div>
                 </div>
@@ -243,7 +301,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-8">Review</a>
                   </div>
                 </div>
@@ -257,7 +315,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-10">Review</a>
                   </div>
                 </div>
@@ -271,7 +329,7 @@
                 <h3 class="price_text">Price N30</h3>
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-11">Review</a>
                   </div>
                 </div>
@@ -286,7 +344,7 @@
 
                 <div class="btn_main">
                   <div class="Btns">
-                    <a href="#" class="buybtn">Buy</a>
+                    <a href="#" class="buyBtn">Add To Cart</a>
                     <a href="#" class="aboutBtn" data-name="p-12">Review</a>
                   </div>
                 </div>
@@ -296,6 +354,7 @@
         </div>
       </div>
     </div>
+
     <div class="product-prev">
       <div class="preview" data-target="p-1">
         <i class="fa fa-times" id="closePro"></i>
@@ -331,7 +390,7 @@
                 <h4>N3500</h4>
               </li>
             </div>
-            <a href="#" class="buybtn">Buy</a>
+            <a href="#" class="buyBtn">Buy</a>
           </div>
         </div>
       </div>
@@ -369,9 +428,8 @@
                 <h4>N3500</h4>
               </li>
             </div>
-            <a href="#" class="buybtn">Buy</a>
+            <a href="#" class="buyBtn">Buy</a>
           </div>
-        
         </div>
       </div>
       <div class="preview" data-target="p-3">
@@ -409,9 +467,8 @@
                 <h4>N3500</h4>
               </li>
             </div>
-            <a href="#" class="buybtn">Buy</a>
+            <a href="#" class="buyBtn">Buy</a>
           </div>
-        
         </div>
       </div>
       <div class="preview" data-target="p-4">
@@ -450,7 +507,6 @@
             </div>
             <a href="#" class="buybtn">Buy</a>
           </div>
-        
         </div>
       </div>
       <div class="preview" data-target="p-5">
@@ -489,7 +545,6 @@
             </div>
             <a href="#" class="buybtn">Buy</a>
           </div>
-        
         </div>
       </div>
       <div class="preview" data-target="p-6">
@@ -528,7 +583,6 @@
             </div>
             <a href="#" class="buybtn">Buy</a>
           </div>
-        
         </div>
       </div>
       <div class="preview" data-target="p-7">
@@ -608,8 +662,10 @@
         </div>
       </div>
     </div>
+
     <!-- product section end -->
     <!-- footer section start -->
+
     <div class="footer_section layout_padding">
       <div class="container">
         <div class="contact_section_2">
