@@ -48,5 +48,16 @@ var filterFunction = (e) => {
 filteringBtn.forEach((buttons) =>
   buttons.addEventListener("click", filterFunction)
 );
+var htmlTag = document.getElementById('html')
 
-// FILTERING SEARCHBOX
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+  htmlTag.style.overflow = 'hidden'
+
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  htmlTag.style.overflow = 'visible'
+
+}

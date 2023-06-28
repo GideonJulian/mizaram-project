@@ -1191,7 +1191,7 @@ input:focus ~ .input-border {
 
 /* customer section end */
 
-.logo {
+.Logo {
   margin: 0 auto;
   font-size: 50px;
   color: transparent;
@@ -1208,10 +1208,10 @@ input:focus ~ .input-border {
   font-family: "Great Vibes", Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 }
-.logo:hover {
+.Logo:hover {
   color: transparent;
 }
-.logo .fa {
+.Logo .fa {
   color: #175b17;
 }
 .border {

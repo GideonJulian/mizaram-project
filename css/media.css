@@ -1,7 +1,7 @@
 @media screen and (max-width: 700px) {
   html {
     overflow-x: hidden;
-    overflow-y: hidden;
+
   }
   .product-container {
     flex-direction: column;
@@ -71,4 +71,22 @@
   .navBar {
     display: none;
   }
+  .BrownBox img{
+    width: 100px;
+    height: 100px;
+    
+}
+.BrownBox h2{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.BrownBox .textBox{
+    margin: 0;
+    padding: 7px;
+}
+.BrownBox .container{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
 }
